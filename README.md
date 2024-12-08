@@ -33,7 +33,8 @@ To run this project, you need:
 - Required libraries:
   - `numpy`
   - `pandas`
-  - Any additional libraries used for modeling (e.g., statsmodels)
+  - `sklearn`
+  - `matplotlib`
 
 ## Usage
 
@@ -47,12 +48,15 @@ cd U5MR-Forecast
 ```bash
 pip install numpy
 pip install pandas
+pip install sklearn
 pip install matplotlib
 ```
 3. Run the main script:
 ```bash
 python U5MR_Forecast.py
 ```
+
+
 
 
 
